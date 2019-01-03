@@ -1,0 +1,37 @@
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /css
+  static_dir: css
+  
+- url: /img
+  static_dir: img
+
+- url: /js
+  static_dir: js
+
+- url: /scss
+  static_dir: scss
+
+- url: /vendor
+  static_dir: vendor
+
+- url: /
+  script: index.php
+
+- url: /careers
+  script: careers.php
+
+- url: /careers.html
+  script: careers.html
+
+- url: /jobs-form.html
+  script: jobs-form.html
+
+- url: /jobs-form
+  script: jobs-form.php
+
+- url: /.*
+  script: index.php
