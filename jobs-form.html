@@ -49,8 +49,8 @@
                     </div>
 
                     <div id="subject1" class="form-group required">
-                        <label for="id_username" class="control-label col-md-4  requiredField"> Subject (Preference
-                            1)<span class="asteriskField">*</span> </label>
+                        <label for="id_username" class="control-label col-md-4 "> Subject (Preference
+                            1) </label>
                         <div class="controls col-md-8 " style="margin-bottom: 10px">
                             <select name="name" class="form-control">
                                 <option value="">--SELECT SUBJECT--</option>
@@ -97,8 +97,8 @@
                     </div>
 
                     <div id="subject2" class="form-group required">
-                        <label for="id_username" class="control-label col-md-4  requiredField"> Subject (Preference
-                            2)<span class="asteriskField">*</span> </label>
+                        <label for="id_username" class="control-label col-md-4 "> Subject (Preference
+                            2) </label>
                         <div class="controls col-md-8 " style="margin-bottom: 10px">
                             <select name="name" class="form-control">
                                 <option value="">--SELECT SUBJECT--</option>
@@ -251,8 +251,7 @@
                     </div>
 
                     <div id="aadharcard" class="form-group required">
-                        <label for="aadhar" class="control-label col-md-4  requiredField"> Aadhar Card No<span
-                                class="asteriskField">*</span> </label>
+                        <label for="aadhar" class="control-label col-md-4 "> Aadhar Card No </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="aadhar" name="aadhar"
                                    placeholder="Your Aadhar Card No" style="margin-bottom: 10px" type="number"/>
@@ -260,8 +259,7 @@
                     </div>
 
                     <div id="pan_no" class="form-group required">
-                        <label for="pan" class="control-label col-md-4  requiredField"> PAN Card No<span
-                                class="asteriskField">*</span> </label>
+                        <label for="pan" class="control-label col-md-4 "> PAN Card No </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="pan" name="dom"
                                    placeholder="Your PAN No" style="margin-bottom: 10px" type="text"/>
@@ -275,23 +273,10 @@
                                    placeholder="Your Nationality " style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
-                    <div id="marital_status" class="form-group required">
-                        <label for="id_username" class="control-label col-md-4  requiredField">Marital Status<span
-                                class="asteriskField">*</span> </label>
-                        <div class="controls col-md-8 ">
-                            <select name="name" class="form-control" style="margin-bottom: 10px">
-                                <option value="-1">--Select Marital Status--</option>
-                                <option value="1">Married</option>
-                                <option value="2">Unmarried</option>
-                                <option value="3">Divorced</option>
-                                <option value="4">Widowed</option>
-                            </select>
-                        </div>
-                    </div>
 
                     <div class="form-group required">
-                        <label for="driving_license_no" class="control-label col-md-4  requiredField">Driving License No
-                            <span class="asteriskField">*</span> </label>
+                        <label for="driving_license_no" class="control-label col-md-4 ">Driving License No
+                            </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="driving_license_no"
                                    placeholder="Driving License No" style="margin-bottom: 10px" type="number"/>
@@ -299,8 +284,8 @@
                     </div>
 
                     <div class="form-group required">
-                        <label for="blood_group" class="control-label col-md-4  requiredField">Blood Group
-                            <span class="asteriskField">*</span> </label>
+                        <label for="blood_group" class="control-label col-md-4 ">Blood Group
+                            </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="blood_group"
                                    placeholder="Your Blood Group" style="margin-bottom: 10px" type="text"/>
@@ -441,16 +426,6 @@
                         </div>
                     </div>
 
-
-                    <div id="p_mobile" class="form-group required">
-                        <label for="p_mobile_no" class="control-label col-md-4  requiredField">Mobile No <span
-                                class="asteriskField">*</span> </label>
-                        <div class="controls col-md-8 ">
-                            <input class="input-md emailinput form-control" id="p_mobile_no" placeholder="Mobile No. "
-                                   style="margin-bottom: 10px" type="text"/>
-                        </div>
-                    </div>
-
                     <div id="p_alt_tel" class="form-group required">
                         <label for="p_alt_tel" class="control-label col-md-4  requiredField"> Residence Telephone
                             No.(with STD Code)/ Alternative Mobile No.<span class="asteriskField">*</span> </label>
@@ -501,44 +476,40 @@
                         </div>
                     </div>
 
+                    <div id="marital_status" class="form-group required">
+                        <label for="id_username" class="control-label col-md-4  requiredField">Marital Status<span
+                                class="asteriskField">*</span> </label>
+                        <div class="controls col-md-8 ">
+                            <select name="name" class="form-control" style="margin-bottom: 10px">
+                                <option value="-1">--Select Marital Status--</option>
+                                <option value="1">Married</option>
+                                <option value="2">Unmarried</option>
+                                <option value="3">Divorced</option>
+                                <option value="4">Widowed</option>
+                            </select>
+                        </div>
+                    </div>
+
                     <!-- Change this field from text to date -->
                     <div id="date_of_marriage" class="form-group required">
-                        <label for="date_of_year" class="control-label col-md-4  requiredField">Date & Year of Marriage
-                            <span class="asteriskField">*</span> </label>
+                        <label for="date_of_year" class="control-label col-md-4 ">Date of Marriage
+                            </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="date_of_year"
-                                   placeholder="Date & Year of Marriage" style="margin-bottom: 10px" type="number"/>
+                                   placeholder="Date of Marriage" style="margin-bottom: 10px" type="number"/>
                         </div>
                     </div>
 
                     <div id="spouse_name" class="form-group required">
-                        <label for="spousename" class="control-label col-md-4  requiredField">Spouse Name <span
-                                class="asteriskField">*</span> </label>
+                        <label for="spousename" class="control-label col-md-4 ">Spouse Name </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="spousename" placeholder="Spouse Name"
                                    style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
-
-                    <div id="spouse_job" class="form-group required">
-                        <label class="control-label col-md-4  requiredField"> Is Spouse's
-                            Job Transferable<span
-                                    class="asteriskField">*</span> </label>
-                        <div class="controls col-md-8 ">
-                            <select name="spousejob" class="form-control" style="margin-bottom: 10px">
-                                <option value="-1">--Select--</option>
-                                <option value="1">Yes</option>
-                                <option value="2">No</option>
-
-                            </select>
-                        </div>
-                    </div>
-
-
                     <div id="spouse_mobile" class="form-group required">
-                        <label for="spousemobile" class="control-label col-md-4  requiredField">Spouse's Mobile No <span
-                                class="asteriskField">*</span> </label>
+                        <label for="spousemobile" class="control-label col-md-4 ">Spouse's Mobile No </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="spousemobile"
                                    placeholder="spouse's Mobile no"
@@ -547,8 +518,7 @@
                     </div>
 
                     <div id="spouse_qualification" class="form-group required">
-                        <label for="spousequalification" class="control-label col-md-4  requiredField">Spouse's Qualification <span
-                                class="asteriskField">*</span> </label>
+                        <label for="spousequalification" class="control-label col-md-4 ">Spouse's Qualification </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="spousequalification"
                                    placeholder="spouse qualification"
@@ -557,32 +527,35 @@
                     </div>
 
                     <div id="spouse_profession" class="form-group required">
-                        <label for="spouseprofession" class="control-label col-md-4  requiredField"> Spouse's
+                        <label for="spouseprofession" class="control-label col-md-4 "> Spouse's
                             Profession.
-                            <span class="asteriskField">*</span> </label>
+                            </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="spouseprofession"
                                    placeholder="spouse profession" style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
-                    <div id="spouse_designation" class="form-group required">
-                        <label for="spousedesignation" class="control-label col-md-4  requiredField"> Spouse's
-                            Designation.
-                            <span class="asteriskField">*</span> </label>
-                        <div class="controls col-md-8 ">
-                            <input class="input-md emailinput form-control" id="spousedesignation"
-                                   placeholder="spouse designation" style="margin-bottom: 10px" type="text"/>
-                        </div>
-                    </div>
-
                     <div id="spouse_organization" class="form-group required">
-                        <label for="spouseorganization" class="control-label col-md-4  requiredField"> Spouse's
+                        <label for="spouseorganization" class="control-label col-md-4 "> Spouse's
                             Organization.
-                            <span class="asteriskField">*</span> </label>
+                            </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="spouseorganization"
                                    placeholder="Spouse's Organization" style="margin-bottom: 10px" type="text"/>
+                        </div>
+                    </div>
+
+                    <div id="spouse_job" class="form-group required">
+                        <label class="control-label col-md-4 "> Is Spouse's
+                            Job Transferable </label>
+                        <div class="controls col-md-8 ">
+                            <select name="spousejob" class="form-control" style="margin-bottom: 10px">
+                                <option value="-1">--Select--</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+
+                            </select>
                         </div>
                     </div>
 
@@ -641,7 +614,7 @@
                     </div>
 
                     <div id="b_ed" class="form-group required">
-                        <label class="control-label col-md-4  requiredField"> Ed_Tech
+                        <label class="control-label col-md-4  requiredField"> Professional Training
                             <span class="asteriskField">*</span> </label>
                         <label>
                             <select name="name" class="form-control">
@@ -1023,6 +996,88 @@
                     <table class="table table table-bordered">
                         <tbody>
                         <tr>
+                            <td style="text-align: center;font-weight: bolder; " colspan="6">Awards/Certification fields</td>
+                        </tr>
+                        <tr style="background: #91ddff;">
+                            <td>Award_No</td>
+                            <td>Award Name</td>
+                            <td>Award Organization</td>
+                            <td>Year</td>
+                            <td>Remarks</td>
+
+                        </tr>
+                        <tr>
+                            <td style="background-color: #fffdfd;">1.</td>
+                            <td><input type="text" class="form-control"/></td>
+                            <td><input type="text" class="form-control"/></td>
+                            <td><input type="text" class="form-control"/></td>
+                            <td><input type="text" class="form-control"/></td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                    
+                    <div class="form-group required">
+                        <label for="description" class="control-label col-md-4  requiredField">Job Expectation and Contributions<span
+                                class="asteriskField">*</span> </label>
+                        <div class="controls col-md-8 ">
+                            <textarea class="input-md emailinput form-control" id="description"
+                                       placeholder="Briefly describe your expectation for this role and how you hope to contribute" style="margin-bottom: 10px"></textarea>
+                        </div>
+                    </div>
+
+                    <br>
+                    <div id="pref_computer" class="form-group required">
+                        <label for="street_name" class="control-label col-md-4  requiredField">Proficiency in Computer<span
+                                class="asteriskField">*</span> </label>
+                        <div class="controls col-md-8 ">
+                            <input class="input-md emailinput form-control" id="computer_pref"
+                                   placeholder="Describe your computer skills " style="margin-bottom: 10px" type="text"/>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group required">
+                        <label for="non_academic_interest" class="control-label col-md-4  requiredField">Non Academic Interests<span
+                                class="asteriskField">*</span> </label>
+                        <div class="controls col-md-8 ">
+                            <input class="input-md emailinput form-control" id="non_academic_interest"
+                                   placeholder="Please list your non-academic interests" style="margin-bottom: 10px" type="text"/>
+                        </div>
+                    </div>
+                    
+                    <table class="table table table-bordered">
+                        <tbody>
+                        <tr>
+                            <td style="text-align: center;font-weight: bolder; " colspan="5">References</td>
+                        </tr>
+                        <tr style="background: #91ddff;">
+                            <td>Ref.No.</td>
+                            <td>Name</td>
+                            <td>Designation</td>
+                            <td>Address</td>
+                            <td>Contact info</td>
+
+                        </tr>
+                        <tr>
+                            <td style="background-color: #fffdfd;">1.</td>
+                            <td><input type="text" class="form-control"/></td>
+                            <td><input type="text" class="form-control"/></td>
+                            <td><input type="text" class="form-control"/></td>
+                            <td><input type="text" class="form-control"/></td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #fffdfd;">2.</td>
+                            <td><input type="text" class="form-control"/></td>
+                            <td><input type="text" class="form-control"/></td>
+                            <td><input type="text" class="form-control"/></td>
+                            <td><input type="text" class="form-control"/></td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="table table table-bordered">
+                        <tbody>
+                        <tr>
                             <td style="text-align: center;font-weight: bolder;" colspan="4">Languages Known</td>
                         </tr>
                         <tr style="background: #caedfe">
@@ -1085,84 +1140,6 @@
                             </td>
                         </tr>
                         </tbody></table>
-                            <br>
-                    <div id="pref_computer" class="form-group required">
-                    <label for="street_name" class="control-label col-md-4  requiredField">Proficiency in Computer<span
-                            class="asteriskField">*</span> </label>
-                    <div class="controls col-md-8 ">
-                        <input class="input-md emailinput form-control" id="computer_pref"
-                               placeholder="Describe your computer skills " style="margin-bottom: 10px" type="text"/>
-                    </div>
-                </div>
-                    <div class="form-group required">
-                        <label for="non_academic_interest" class="control-label col-md-4  requiredField">Non Academic Interests<span
-                                class="asteriskField">*</span> </label>
-                        <div class="controls col-md-8 ">
-                            <input class="input-md emailinput form-control" id="non_academic_interest"
-                                   placeholder="Please list your non-academic interests" style="margin-bottom: 10px" type="text"/>
-                        </div>
-                    </div>
-                    <table class="table table table-bordered">
-                        <tbody>
-                        <tr>
-                            <td style="text-align: center;font-weight: bolder; " colspan="5">Reference</td>
-                        </tr>
-                        <tr style="background: #91ddff;">
-                            <td>Ref.No.</td>
-                            <td>Name</td>
-                            <td>Designation</td>
-                            <td>Address</td>
-                            <td>Contact info</td>
-
-                        </tr>
-                        <tr>
-                            <td style="background-color: #fffdfd;">1.</td>
-                            <td><input type="text" class="form-control"/></td>
-                            <td><input type="text" class="form-control"/></td>
-                            <td><input type="text" class="form-control"/></td>
-                            <td><input type="text" class="form-control"/></td>
-                        </tr>
-                        <tr>
-                            <td style="background-color: #fffdfd;">2.</td>
-                            <td><input type="text" class="form-control"/></td>
-                            <td><input type="text" class="form-control"/></td>
-                            <td><input type="text" class="form-control"/></td>
-                            <td><input type="text" class="form-control"/></td>
-                        </tr>
-                        </tbody>
-                    </table>
-
-                    <table class="table table table-bordered">
-                        <tbody>
-                        <tr>
-                            <td style="text-align: center;font-weight: bolder; " colspan="6">Awards/Certification fields</td>
-                        </tr>
-                        <tr style="background: #91ddff;">
-                            <td>Award_No</td>
-                            <td>Award Name</td>
-                            <td>Award Organization</td>
-                            <td>Year</td>
-                            <td>Remarks</td>
-
-                        </tr>
-                        <tr>
-                            <td style="background-color: #fffdfd;">1.</td>
-                            <td><input type="text" class="form-control"/></td>
-                            <td><input type="text" class="form-control"/></td>
-                            <td><input type="text" class="form-control"/></td>
-                            <td><input type="text" class="form-control"/></td>
-                        </tr>
-
-                        </tbody>
-                    </table>
-                    <div class="form-group required">
-                        <label for="description" class="control-label col-md-4  requiredField">Job Expectation and Contributions<span
-                                class="asteriskField">*</span> </label>
-                        <div class="controls col-md-8 ">
-                            <textarea class="input-md emailinput form-control" id="description"
-                                       placeholder="Briefly describe your expectation for this role and how you hope to contribute" style="margin-bottom: 10px"></textarea>
-                        </div>
-                    </div>
 
                     <div id="criminal_conviction" class="form-group required">
                         <label for="id_username" class="control-label col-md-4  requiredField">Criminal Conviction<span
@@ -1217,7 +1194,8 @@
                                 <label for="id_terms" class=" requiredField">
                                     <input class="input-ms checkboxinput" id="id_terms" name="terms"
                                            style="margin-bottom: 10px" type="checkbox"/>
-                                    I agree with the terms and conditions
+                                    I, the applicant, state that all information given above is true and correct. I understand that submission of the Application Form is a preliminary step in the selection of teachers at Jay International School and does not guarantee a job. 
+                                    <br>I agree to abide by all decisions taken by the school management.
                                 </label>
                             </div>
 
