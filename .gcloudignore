@@ -14,4 +14,3 @@
 .gitignore
 
 # PHP Composer dependencies:
-vendor/
