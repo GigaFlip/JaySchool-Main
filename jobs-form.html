@@ -8,7 +8,7 @@
     <div id="signupbox" style=" margin-top:50px" class="">
         <div class="panel panel-info">
             <div class="panel-heading">
-                <div class="panel-title">Job Information</div>
+                <div class="panel-title">Job Application</div>
                 <div style="float:right; font-size: 85%; position: relative; top:-10px"></div>
             </div>
             <div class="panel-body">
@@ -16,7 +16,7 @@
                     <input type='hidden' name='csrfmiddlewaretoken' value='XFe2rTYl9WOpV8U6X5CfbIuOZOELJ97S'/>
 
                     <div id="post_for" class="form-group required">
-                        <label for="id_username" class="control-label col-md-4  requiredField"> Post Applied For<span
+                        <label for="id_username" class="control-label col-md-4  requiredField"> Applying For<span
                                 class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <select name="name" class="form-control" style="margin-bottom: 10px">
@@ -148,6 +148,25 @@
                         </h3></div>
                         <div style="float:right; font-size: 85%; position: relative; top:-10px"></div>
                     </div>
+
+                    <div id="firstname" class="form-group required">
+                        <label for="id_username" class="control-label col-md-4  requiredField"> FirstName<span
+                                class="asteriskField">*</span> </label>
+                        <div class="controls col-md-8 ">
+                            <input class="input-md textinput textInput form-control" id="first_name" maxlength="30"
+                                   name="firstname" placeholder="First Name" style="margin-bottom: 10px" type="text"/>
+                        </div>
+                    </div>
+
+                    <div id="lasttname" class="form-group required">
+                        <label for="id_username" class="control-label col-md-4  requiredField"> LastName<span
+                                class="asteriskField">*</span> </label>
+                        <div class="controls col-md-8 ">
+                            <input class="input-md textinput textInput form-control" id="last_name" maxlength="30"
+                                   name="lastname" placeholder="Last Name" style="margin-bottom: 10px" type="text"/>
+                        </div>
+                    </div>
+
                     <div id="dateofbirth" class="form-group required">
                         <label for="dob" class="control-label col-md-4  requiredField"> Date of Birth<span
                                 class="asteriskField">*</span> </label>
@@ -175,23 +194,6 @@
                         </div>
                     </div>
 
-                    <div id="firstname" class="form-group required">
-                        <label for="id_username" class="control-label col-md-4  requiredField"> FirstName<span
-                                class="asteriskField">*</span> </label>
-                        <div class="controls col-md-8 ">
-                            <input class="input-md textinput textInput form-control" id="first_name" maxlength="30"
-                                   name="firstname" placeholder="First Name" style="margin-bottom: 10px" type="text"/>
-                        </div>
-                    </div>
-
-                    <div id="lasttname" class="form-group required">
-                        <label for="id_username" class="control-label col-md-4  requiredField"> LastName<span
-                                class="asteriskField">*</span> </label>
-                        <div class="controls col-md-8 ">
-                            <input class="input-md textinput textInput form-control" id="last_name" maxlength="30"
-                                   name="lastname" placeholder="Last Name" style="margin-bottom: 10px" type="text"/>
-                        </div>
-                    </div>
 
                     <div id="gender" class="form-group required">
                         <label for="id_username" class="control-label col-md-4  requiredField">Gender<span
@@ -233,7 +235,7 @@
                         </div>
                     </div>
                     <div id="community_category" class="form-group required">
-                        <label for="community_category" class="control-label col-md-4  requiredField">Religion<span
+                        <label for="community_category" class="control-label col-md-4  requiredField">Community<span
                                 class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <select name="name" class="form-control" style="margin-bottom: 10px">
@@ -301,7 +303,7 @@
                             <span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="blood_group"
-                                   placeholder="Date & Year of Marriage" style="margin-bottom: 10px" type="text"/>
+                                   placeholder="Your Blood Group" style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
@@ -339,7 +341,7 @@
                     </div>
 
                     <div id="city" class="form-group required">
-                        <label for="city_name" class="control-label col-md-4  requiredField">City Name <span
+                        <label for="city_name" class="control-label col-md-4  requiredField">City <span
                                 class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="city_name" placeholder="City name"
@@ -352,7 +354,7 @@
                         <label for="state_name" class="control-label col-md-4  requiredField">State <span
                                 class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
-                            <input class="input-md emailinput form-control" id="state_name" placeholder="state name "
+                            <input class="input-md emailinput form-control" id="state_name" placeholder="State Name "
                                    style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
@@ -362,20 +364,17 @@
                         <label for="pin_code" class="control-label col-md-4  requiredField">PIN <span
                                 class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
-                            <input class="input-md emailinput form-control" id="pin_code" placeholder="pincode "
+                            <input class="input-md emailinput form-control" id="pin_code" placeholder="Pincode "
                                    style="margin-bottom: 10px" type="number"/>
                         </div>
                     </div>
-
-
-
 
                     <div id="alt_tel" class="form-group required">
                         <label for="alt_tel" class="control-label col-md-4  requiredField"> Residence Telephone No.(with
                             STD Code)/ Alternative Mobile No.<span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="alttel"
-                                   placeholder="Alternate mobile no " style="margin-bottom: 10px" type="text"/>
+                                   placeholder="Alternate Phone No. " style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
@@ -414,10 +413,10 @@
 
 
                     <div id="p_city" class="form-group required">
-                        <label for="p_city_name" class="control-label col-md-4  requiredField">City Name <span
+                        <label for="p_city_name" class="control-label col-md-4  requiredField">City <span
                                 class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
-                            <input class="input-md emailinput form-control" id="p_city_name" placeholder="City name"
+                            <input class="input-md emailinput form-control" id="p_city_name" placeholder="City Name"
                                    style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
@@ -427,7 +426,7 @@
                         <label for="p_state_name" class="control-label col-md-4  requiredField">State <span
                                 class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
-                            <input class="input-md emailinput form-control" id="p_state_name" placeholder="state name "
+                            <input class="input-md emailinput form-control" id="p_state_name" placeholder="State Name "
                                    style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
@@ -437,7 +436,7 @@
                         <label for="p_pin_code" class="control-label col-md-4  requiredField">PIN <span
                                 class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
-                            <input class="input-md emailinput form-control" id="p_pin_code" placeholder="pincode "
+                            <input class="input-md emailinput form-control" id="p_pin_code" placeholder="Pincode "
                                    style="margin-bottom: 10px" type="number"/>
                         </div>
                     </div>
@@ -447,7 +446,7 @@
                         <label for="p_mobile_no" class="control-label col-md-4  requiredField">Mobile No <span
                                 class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
-                            <input class="input-md emailinput form-control" id="p_mobile_no" placeholder="mobile no "
+                            <input class="input-md emailinput form-control" id="p_mobile_no" placeholder="Mobile No. "
                                    style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
@@ -457,7 +456,7 @@
                             No.(with STD Code)/ Alternative Mobile No.<span class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="p_alttel"
-                                   placeholder="Alternate mobile no " style="margin-bottom: 10px" type="text"/>
+                                   placeholder="Phone No." style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
 
@@ -502,6 +501,7 @@
                         </div>
                     </div>
 
+                    <!-- Change this field from text to date -->
                     <div id="date_of_marriage" class="form-group required">
                         <label for="date_of_year" class="control-label col-md-4  requiredField">Date & Year of Marriage
                             <span class="asteriskField">*</span> </label>
@@ -522,8 +522,8 @@
 
 
                     <div id="spouse_job" class="form-group required">
-                        <label class="control-label col-md-4  requiredField"> Specify whether spouse's
-                            job is transferrable<span
+                        <label class="control-label col-md-4  requiredField"> Is Spouse's
+                            Job Transferable<span
                                     class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <select name="spousejob" class="form-control" style="margin-bottom: 10px">
@@ -971,7 +971,8 @@
                         </tr>
                         </tbody>
                     </table>
-
+                    
+                    <!-- Moved the years of work experiece to inside the table 
                     <div style="margin-top: 20px;" class="form-group required">
                         <label for="years_work_exp" class="control-label col-md-4  requiredField">Years of work experience
                             <span class="asteriskField">*</span> </label>
@@ -980,11 +981,24 @@
                                    placeholder="Years of work experience" style="margin-bottom: 10px" type="number"/>
                         </div>
                     </div>
+                    -->
 
                     <table class="table table table-bordered">
                         <tbody>
                         <tr>
                             <td style="text-align: center;font-weight: bolder; " colspan="6">Experience Details</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;font-weight: bolder; " colspan="6">
+                                <div style="margin-top: 20px;" class="form-group required">
+                                    <label for="years_work_exp" class="control-label col-md-4  requiredField">Years of work experience
+                                        <span class="asteriskField">*</span> </label>
+                                    <div class="controls col-md-8 ">
+                                        <input class="input-md emailinput form-control" id="years_work_exp"
+                                               placeholder="Years of work experience" style="margin-bottom: 10px" type="number"/>
+                                    </div>
+                                </div>
+                            </td>
                         </tr>
                         <tr style="background-color: #caedfe;">
                             <td align="center"  style="border: 1px solid #afafaf;"> Sr.No.</td>
@@ -1077,7 +1091,7 @@
                             class="asteriskField">*</span> </label>
                     <div class="controls col-md-8 ">
                         <input class="input-md emailinput form-control" id="computer_pref"
-                               placeholder=" " style="margin-bottom: 10px" type="text"/>
+                               placeholder="Describe your computer skills " style="margin-bottom: 10px" type="text"/>
                     </div>
                 </div>
                     <div class="form-group required">
@@ -1085,7 +1099,7 @@
                                 class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="input-md emailinput form-control" id="non_academic_interest"
-                                   placeholder="non academic interesta" style="margin-bottom: 10px" type="text"/>
+                                   placeholder="Please list your non-academic interests" style="margin-bottom: 10px" type="text"/>
                         </div>
                     </div>
                     <table class="table table table-bordered">
@@ -1142,11 +1156,11 @@
                         </tbody>
                     </table>
                     <div class="form-group required">
-                        <label for="description" class="control-label col-md-4  requiredField">Description<span
+                        <label for="description" class="control-label col-md-4  requiredField">Job Expectation and Contributions<span
                                 class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <textarea class="input-md emailinput form-control" id="description"
-                                       placeholder="Briefly describe your expectation for this role and what do you hope to contribute" style="margin-bottom: 10px"></textarea>
+                                       placeholder="Briefly describe your expectation for this role and how you hope to contribute" style="margin-bottom: 10px"></textarea>
                         </div>
                     </div>
 
@@ -1175,16 +1189,16 @@
                         <label for="street_name" class="control-label col-md-4  requiredField"> Upload Cover Letter (optional) </label>
                         <div class="controls col-md-8 ">
                             <input class="filesize mandatoryvalue fileext" ext="pdf,doc,docx" type="file" name="cover_letter" title="Upload covet letter" edu_file_size="1024" id="cover_letter" style="width:746px;"/>
-                            (file size not more than 1 MB)
+                            (File size < 2 MB)
                         </div>
                     </div>
 
                     <div id="photo_" class="form-group required">
-                        <label for="street_name" class="control-label col-md-4  requiredField"> upload passport size photograph (JPG/PNG)<span
+                        <label for="street_name" class="control-label col-md-4  requiredField"> Upload Passport Size Photograph (JPG/PNG)<span
                                 class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="filesize mandatoryvalue fileext" accept="image/jpx" type="file" name="resume" title="Upload Photograph" edu_file_size="1024" id="photo" style="width:746px;"/>
-                            (file size not more than 1 m)
+                            (File size < 4 MB)
                         </div>
                     </div>
 
@@ -1193,7 +1207,7 @@
                                 class="asteriskField">*</span> </label>
                         <div class="controls col-md-8 ">
                             <input class="filesize mandatoryvalue fileext" ext="pdf,doc,docx" type="file" name="resume" title="Upload Resume with Photograph" edu_file_size="1024" id="sign" style="width:746px;"/>
-                            (file size not more than 200 KB)
+                            (File size < 2 MB)
                         </div>
                     </div>
 
@@ -1203,7 +1217,7 @@
                                 <label for="id_terms" class=" requiredField">
                                     <input class="input-ms checkboxinput" id="id_terms" name="terms"
                                            style="margin-bottom: 10px" type="checkbox"/>
-                                    Agree with the terms and conditions
+                                    I agree with the terms and conditions
                                 </label>
                             </div>
 
@@ -1223,9 +1237,6 @@
         </div>
     </div>
 </div>
-
-
-
 
 <style>
     input::-webkit-inner-spin-button,
