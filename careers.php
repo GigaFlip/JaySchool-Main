@@ -77,6 +77,7 @@
             <p class="text-faded-dark mb-3 text-justify">Take a look at our current job opportunities and become part of a team committed to international education.</p>
             <p class="text-faded-dark mb-3 text-justify"> Join the JIS Educator Network. 
             The implementation of our professional development and school services depends on a diverse and active community of educators.</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#roles">Interested?</a>
           </div>
         </div>
       </div>
@@ -119,18 +120,21 @@
                 Support Staff
               </dt>
               <dd>
-                Nutritionist, Student Counselor, Part time Doctors.
+                Nutritionist, Student Counselor, Part time Doctors. <br>
               </dd>
               <dd>
                 Caretakers, Security (Day & Night)
               </dd>
             </dl>
+            <br>
+            <p class="text-faded-dark text-center"> <b>Please fill the form below</b> 
+            </p>
           </div>
         </div>
       </div>
     <!-- </section> -->
-    <br>
-    <br>
+    <!-- <br> -->
+    <!-- <br> -->
 
     <!-- <section class="bg-light text-white">
       <div class="container text-center">
