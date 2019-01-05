@@ -21,7 +21,7 @@ handlers:
 - url: /
   script: index.php
 
-- utl: /index.html
+- url: /index.html
   script: index.html
   
 - url: /careers
