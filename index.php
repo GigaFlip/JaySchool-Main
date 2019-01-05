@@ -24,6 +24,15 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.css" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
   </head>
 
   <body id="page-top">
@@ -64,7 +73,7 @@
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded-dark mb-5"><b>Jay i School</b> is a new intiative from Jay Education Trust. We are distilling our 40 years of experience in education to bring an innovative school to the children of Thoothukudi and Tirunelveli</p>
+            <p class="text-faded-dark mb-5"><b>Jay i School</b> is a new initiative from Jay Education Trust. We are distilling our 40 years of experience in education to bring an innovative school to the children of Thoothukudi and Tirunelveli</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
           </div>
         </div>
@@ -101,28 +110,29 @@
             <div class="service-box mt-5 mx-auto">
               <i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i>
               <h3 class="mb-3">History of Excellence</h3>
-              <p class="text-muted mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="text-muted mb-0">Jay Educational Trust, founded by our chairman, Thiru. J. Subbiah, has 40 years of service as one of the leading educational groups in Salem.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fas fa-4x fa-paper-plane text-primary mb-3 sr-icon-2"></i>
               <h3 class="mb-3">Individual Attention</h3>
-              <p class="text-muted mb-0">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p class="text-muted mb-0">We believe that every human being is unique; that it is possible for each of us to realize our true potential. We strive to create an environment makes this possible.
+              </p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
-              <h3 class="mb-3">All-round Training</h3>
-              <p class="text-muted mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <h3 class="mb-3">Multi-faceted  Training</h3>
+              <p class="text-muted mb-0">We are determined and have the dedication to create leaders in every sphere of life.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>
-              <h3 class="mb-3">Made with Love</h3>
-              <p class="text-muted mb-0">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!</p>
+              <h3 class="mb-3">We Care for the World</h3>
+              <p class="text-muted mb-0"> Our students are offered a wide range of choices and opportunities to engage meaningfully with social and real-world issues.</p>
             </div>
           </div>
         </div>

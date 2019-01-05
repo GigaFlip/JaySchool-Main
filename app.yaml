@@ -21,6 +21,9 @@ handlers:
 - url: /
   script: index.php
 
+- utl: /index.html
+  script: index.html
+  
 - url: /careers
   script: careers.php
 
@@ -38,6 +41,22 @@ handlers:
 
 - url: /handle_upload
   script: handle_upload.php
+
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /favicon-32x32\.png
+  static_files: favicon-32x32.png
+  upload: favicon-32x32\.png
+  
+- url: /android-chrome-144x144\.png
+  static_files: android-chrome-144x144.png
+  upload: android-chrome-144x144\.png
+  
+- url: /favicon-16x16\.png
+  static_files: favicon-16x16.png
+  upload: favicon-16x16\.png
 
 - url: /.*
   script: index.php
