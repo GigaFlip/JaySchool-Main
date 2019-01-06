@@ -250,7 +250,7 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Get In Touch!</h2>
             <hr class="my-4">
-            <p class="mb-5">Interested in admitting your child with us? Ready to join us and make a difference?
+            <p class="mb-5">Ready to join us and make a difference?
             <br>That's great! Give us a call or send us an email!</p>
           </div>
         </div>

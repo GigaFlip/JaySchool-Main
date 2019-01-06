@@ -35,7 +35,13 @@ handlers:
 
 - url: /jobs-form
   script: jobs-form.php
+  
+- url: /job.html
+  script: job.html
 
+- url: /job
+  script: job.php
+  
 - url: /direct_upload
   script: direct_upload.php
 
