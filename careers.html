@@ -144,14 +144,18 @@
 
     <!-- <section class="bg-light text-white"> -->
       <div class="container text-center">
-        <script type="text/javascript" src="https://forms.zohopublic.com/virtualoffice13694/form/JobInterest/jsperma/8QBuh4zsufgWgGGmv2lWa8K87LKoA6eWvI_pG6AvdHQ?height=850px&width=100%25" id="ZFScript"></script>
+        <iframe frameborder="0" style="height:850px;width:99%;border:none;" src='https://forms.zohopublic.com/virtualoffice13694/form/JobInterest/formperma/8QBuh4zsufgWgGGmv2lWa8K87LKoA6eWvI_pG6AvdHQ'></iframe>
+        <!-- <script type="text/javascript" src="https://forms.zohopublic.com/virtualoffice13694/form/JobInterest/jsperma/8QBuh4zsufgWgGGmv2lWa8K87LKoA6eWvI_pG6AvdHQ?height=850px&width=100%25" id="ZFScript"></script> -->
       </div>
     </section>
 
     <footer>
       <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
+        <div class="row" style="font-size:small">
+          <div class="col-sm-6 text-left">
+            For website help: <a href="mailto:webmaster@jayschool.edu.in">webmaster@jayschool.edu.in</a>
+          </div>
+          <div class="col-sm-6 text-right">
             <span class="copyright">Copyright &copy; Jay International School 2019</span>
           </div>
         </div>

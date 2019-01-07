@@ -5,10 +5,10 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Careers - Jay International School">
+    <meta name="description" content="Job Application - Jay International School">
     <meta name="author" content="GigaFlip Labs">
 
-    <title>Careers - Jay i School</title>
+    <title>Job Application - Jay i School</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -38,9 +38,9 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="border-bottom: 1px solid rgba(33, 37, 41, 0.1); background-color: #fff;">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">Jay i School</a>
+        <a class="navbar-brand js-scroll-trigger" href="index.html#page-top" style="color: #F05F40">Jay i School</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -53,7 +53,7 @@
               <a class="nav-link js-scroll-trigger" href="index.html#soon">Admission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">Careers</a>
+              <a class="nav-link js-scroll-trigger" href="careers.html">Careers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="index.html#contact">Contact</a>
@@ -75,19 +75,21 @@
           </div>
         </div>
       </div>
-    </header>
- -->
+    </header> -->
+
     <section class="bg-light text-white">
       <div class="container text-center">
-        <iframe frameborder="0" style="height:5500px;width:99%;border:none;" src='https://forms.zohopublic.com/virtualoffice13694/form/JobApplicationForm/formperma/C-DfzT0hw1GDS0I102L5K6c2iIsFzEVs1tX0B7X_-i4'></iframe>
--->
+        <iframe style="height:5500px;width:99%;border:none;" name ="JobAppIframe" id="JobAppIframe" src="https://forms.zohopublic.com/virtualoffice13694/form/JobApplicationForm/formperma/C-DfzT0hw1GDS0I102L5K6c2iIsFzEVs1tX0B7X_-i4"></iframe>
       </div>
     </section>
 
     <footer>
       <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
+        <div class="row" style="font-size:small">
+          <div class="col-sm-6 text-left">
+            For website help: <a href="mailto:webmaster@jayschool.edu.in">webmaster@jayschool.edu.in</a>
+          </div>
+          <div class="col-sm-6 text-right">
             <span class="copyright">Copyright &copy; Jay International School 2019</span>
           </div>
         </div>
@@ -105,6 +107,25 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+
+    <script>
+      function loadIframe(iframename, url) {
+        var $iframe = $('#' + iframename);
+        if ($iframe.length) {
+            $iframe.attr('src', url);
+            return false;
+        }
+        return true;
+      }
+
+      $(document).ready(function() {
+        var url = window.location.toString();
+        var params = url.split('?')[1];
+        if (params != null) {
+            loadIframe('JobAppIframe', 'https://forms.zohopublic.com/virtualoffice13694/form/JobApplicationForm/formperma/C-DfzT0hw1GDS0I102L5K6c2iIsFzEVs1tX0B7X_-i4' + '?' + params);
+        }
+      });
+    </script>
 
   </body>
 

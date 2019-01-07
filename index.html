@@ -73,7 +73,7 @@
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded-dark mb-5"><b>Jay i School</b> is a new initiative from Jay Education Trust. We are distilling our 40 years of experience in education to bring an innovative school to the children of Thoothukudi and Tirunelveli</p>
+            <p class="text-faded-dark mb-5" style="font-weight: 400;"><b>Jay i School</b> is a new initiative from Jay Education Trust. We are distilling our 40 years of experience in education to bring an innovative school to the children of Thoothukudi and Tirunelveli</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
           </div>
         </div>
@@ -148,10 +148,7 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
+                    Project
                   </div>
                 </div>
               </div>
@@ -163,10 +160,7 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
+                    Project
                   </div>
                 </div>
               </div>
@@ -178,10 +172,7 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
+                    Project
                   </div>
                 </div>
               </div>
@@ -193,10 +184,7 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
+                    Project
                   </div>
                 </div>
               </div>
@@ -208,10 +196,7 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
+                    Project
                   </div>
                 </div>
               </div>
@@ -223,10 +208,7 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
+                    Project
                   </div>
                 </div>
               </div>
@@ -281,10 +263,13 @@
       </div>
     </section>
 
-     <footer>
+    <footer>
       <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
+        <div class="row" style="font-size:small">
+          <div class="col-sm-6 text-left">
+            For website help: <a href="mailto:webmaster@jayschool.edu.in">webmaster@jayschool.edu.in</a>
+          </div>
+          <div class="col-sm-6 text-right">
             <span class="copyright">Copyright &copy; Jay International School 2019</span>
           </div>
         </div>
