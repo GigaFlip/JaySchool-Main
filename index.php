@@ -2,6 +2,13 @@
 <html lang="en">
 
   <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K7F973D');</script>
+    <!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -36,6 +43,10 @@
   </head>
 
   <body id="page-top">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7F973D"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -53,7 +64,7 @@
               <a class="nav-link js-scroll-trigger" href="#soon">Admission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="careers.html">Careers</a>
+              <a class="nav-link js-scroll-trigger" href="careers">Careers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -89,7 +100,7 @@
             <p class="text-faded mb-4 text-justify">We aim to help children, according to their own abilities and potential, to develop their talent, shape their character and build their confidence. Our goal is to equip each child with the confidence to dream, the knowledge to understand those dreams and the perseverance required to pursue them.</p>
             <p class="text-faded mb-4 text-justify">To help us in this initiative we are looking for top academics, administrators, teachers and more to join us. Interested in making a diffence in a child's life?</p>
             <p class="text-faded mb-4">Come work for us!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="careers.html">Careers</a>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="careers">Careers</a>
           </div>
         </div>
       </div>
