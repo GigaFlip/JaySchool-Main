@@ -20,15 +20,18 @@ handlers:
 
 - url: /
   script: index.php
+  secure: always
 
 - url: /index.html
-  script: index.html
+  script: index.php
+  secure: always
   
 - url: /careers
   script: careers.php
+  secure: always
 
 - url: /careers.html
-  script: careers.html
+  script: careers.php
 
 - url: /jobs-form.html
   script: jobs-form.html
@@ -37,11 +40,13 @@ handlers:
   script: jobs-form.php
   
 - url: /job.html
-  script: job.html
+  script: job.php
+  secure: always
 
 - url: /job
   script: job.php
-  
+  secure: always
+
 - url: /direct_upload
   script: direct_upload.php
 
@@ -74,3 +79,4 @@ handlers:
 
 - url: /.*
   script: index.php
+  secure: always
