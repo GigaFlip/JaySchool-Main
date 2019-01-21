@@ -22,10 +22,10 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Careers - Jay International School">
+    <meta name="description" content="Student Admission Application - Jay International School">
     <meta name="author" content="GigaFlip Labs">
 
-    <title>Careers - Jay i School</title>
+    <title>Student Admission Application - Jay i School</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -59,114 +59,49 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="border-bottom: 1px solid rgba(33, 37, 41, 0.1); background-color: #fff;">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">Jay i School</a>
+        <a class="navbar-brand js-scroll-trigger" href="index#page-top" style="color: #F05F40">Jay i School</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="index#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html#soon">Admission</a>
+              <a class="nav-link js-scroll-trigger" href="admission">Admission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">Careers</a>
+              <a class="nav-link js-scroll-trigger" href="careers">Careers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="index#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <header class="masthead text-center text-black d-flex" style="background-image: url("../img/careers-header.jpg")">
+<!--     <header class="masthead text-center text-black d-flex" style="background-image: url("../img/careers-header.jpg")">
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
-              <strong>Ready to join us!</strong>
+              <strong>Apply</strong>
             </h1>
             <hr>
           </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded-dark mb-3 text-justify"><b>Jay i School</b> is on a mission to redefine education. To make it more engaging, relevant and effective for our children. And in the process, we make teaching more meaningful, fulfilling and exciting. We are looking for passionate educators to join us on this mission.</p>
-            <p class="text-faded-dark mb-3 text-justify">Take a look at our current job opportunities and become part of a team committed to international education.</p>
-            <p class="text-faded-dark mb-3 text-justify"> Join the JIS Educator Network. 
-            The implementation of our professional development and school services depends on a diverse and active community of educators.</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#roles">Interested?</a>
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
 
-    <section id="roles">
-      <div class="container-fluid ">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="text-muted text-center">
-              <strong>We are looking for</strong>
-            </h3>
-            <br>
-          </div>
-          <div class="col-md-2">
-          </div>
-          <div class="col-md-8">
-            <dl style="font:Lato;">
-              <dt>
-                Vice Principal and Primary Co-ordinator
-              </dt>
-              <dd>
-                With extensive experience in designing curriculum for nursery and primary classes.
-              </dd><br>
-              <dt>
-                Administrative Team
-              </dt>
-              <dd>
-                Administrative Officer, Admission Counselor, Front desk, Accountant and PA to Director.
-              </dd><br>
-              <dt>
-                Academic Staff
-              </dt>
-              <dd>
-                Nursery and Primary Teachers (All Subjects), Montessori teachers, Activity Teachers,
-                Personality development teachers, Music teachers (With knowledge of all musical instruments),
-                Dance Teachers (Western/Classical), Physical Education Trainers, Librarian 
-              </dd><br>
-              <dt>
-                Support Staff
-              </dt>
-              <dd>
-                Nutritionist, Student Counselor, Part time Doctors. <br>
-              </dd>
-              <dd>
-                Caretakers, Security (Day & Night)
-              </dd>
-            </dl>
-            <br>
-            <p class="text-faded-dark text-center"> <b>Please fill the form below</b> 
-            </p>
-          </div>
-        </div>
-      </div>
-    <!-- </section> -->
-    <!-- <br> -->
-    <!-- <br> -->
-
-    <!-- <section class="bg-light text-white">
+    <section class="bg-light text-white">
       <div class="container text-center">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzNVQPXjh8OoK4aJ24ZalGd-mNseRL318FIl5ne9ZI4hWcsA/viewform?embedded=true" width="640" height="907" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-      </div>
-    </section> -->
-
-    <!-- <section class="bg-light text-white"> -->
-      <div class="container text-center">
-        <iframe frameborder="0" style="height:850px;width:99%;border:none;" src='https://forms.zohopublic.com/virtualoffice13694/form/JobInterest/formperma/8QBuh4zsufgWgGGmv2lWa8K87LKoA6eWvI_pG6AvdHQ'></iframe>
-        <!-- <script type="text/javascript" src="https://forms.zohopublic.com/virtualoffice13694/form/JobInterest/jsperma/8QBuh4zsufgWgGGmv2lWa8K87LKoA6eWvI_pG6AvdHQ?height=850px&width=100%25" id="ZFScript"></script> -->
+        <!-- <iframe style="height:5500px;width:99%;border:none;" name ="AdmissionAppIframe" id="AdmissionAppIframe" src="https://forms.zohopublic.com/virtualoffice13694/form/JobApplicationForm/formperma/C-DfzT0hw1GDS0I102L5K6c2iIsFzEVs1tX0B7X_-i4"></iframe> -->
+        <iframe frameborder="0" style="height:3500px;width:99%;border:none;" name ="AdmissionAppIframe" id="AdmissionAppIframe" src='https://forms.zohopublic.com/virtualoffice13694/form/StudentAdmission/formperma/bEay_A6Jp4Z67NsVbPPeL_KwoK1ep9CvAVcfZM9n35o'></iframe>
       </div>
     </section>
 
@@ -194,6 +129,25 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+
+    <script>
+      function loadIframe(iframename, url) {
+        var $iframe = $('#' + iframename);
+        if ($iframe.length) {
+            $iframe.attr('src', url);
+            return false;
+        }
+        return true;
+      }
+
+      $(document).ready(function() {
+        var url = window.location.toString();
+        var params = url.split('?')[1];
+        if (params != null) {
+            loadIframe('AdmissionAppIframe', 'https://forms.zohopublic.com/virtualoffice13694/form/StudentAdmission/formperma/bEay_A6Jp4Z67NsVbPPeL_KwoK1ep9CvAVcfZM9n35o' + '?' + params);
+        }
+      });
+    </script>
 
   </body>
 
