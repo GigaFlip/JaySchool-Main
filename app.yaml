@@ -47,6 +47,14 @@ handlers:
   script: job.php
   secure: always
 
+- url: /admission.html
+  script: job.php
+  secure: always
+
+- url: /admission
+  script: admission.php
+  secure: always
+
 - url: /direct_upload
   script: direct_upload.php
 
