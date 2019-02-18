@@ -71,7 +71,7 @@
               <a class="nav-link js-scroll-trigger" href="index#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index#soon">Admission</a>
+              <a class="nav-link js-scroll-trigger" href="admission">Admission</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#">Careers</a>
