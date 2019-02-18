@@ -9,7 +9,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-K7F973D');</script>
     <!-- End Google Tag Manager -->
-
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131896803-1"></script>
     <script>
@@ -258,9 +258,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6 mr-auto text-center">
+          <div class="col-lg-6 mr-auto text-center" style="font-size: 1.3rem;">
             <i class="fas fa-map-marker-alt fa-2x mb-3 sr-contact-1"></i>
-            Sathankulam Main Rd
+            <a href="https://www.google.com/maps/search/Jay+International+School+Santhankulam/@8.4638436,77.959896,14z" target="_blank">Sathankulam Main Rd</a>
             <br>Nangaimozhi 
             <br>Megnanapuram, Tiruchendur Taluk 
             <br>Tamil Nadu 628701
