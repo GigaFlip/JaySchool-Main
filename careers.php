@@ -123,12 +123,12 @@
               <dd>
                 With extensive experience in designing curriculum for nursery and primary classes.
               </dd><br>
-              <dt>
+<!--               <dt>
                 Administrative Team
               </dt>
               <dd>
                 Administrative Officer, Admission Counselor, Front desk, Accountant and PA to Director.
-              </dd><br>
+              </dd><br> -->
               <dt>
                 Academic Staff
               </dt>

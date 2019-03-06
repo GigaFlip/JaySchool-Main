@@ -263,7 +263,7 @@
             <a href="https://www.google.com/maps/search/Jay+International+School+Santhankulam/@8.4638436,77.959896,14z" target="_blank">Sathankulam Main Rd</a>
             <br>Nangaimozhi 
             <br>Megnanapuram, Tiruchendur Taluk 
-            <br>Tamil Nadu 628701
+            <br>Tamil Nadu 628210
             <br>
             <br>
             <i class="fas fa-phone fa-1x mb-3 sr-contact-2"></i>
