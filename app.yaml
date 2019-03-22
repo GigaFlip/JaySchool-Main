@@ -1,0 +1,90 @@
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /css
+  static_dir: css
+  
+- url: /img
+  static_dir: img
+
+- url: /js
+  static_dir: js
+
+- url: /scss
+  static_dir: scss
+
+- url: /vendor
+  static_dir: vendor
+
+- url: /
+  script: index.php
+  secure: always
+
+- url: /index.html
+  script: index.php
+  secure: always
+  
+- url: /careers
+  script: careers.php
+  secure: always
+
+- url: /careers.html
+  script: careers.php
+
+- url: /jobs-form.html
+  script: jobs-form.html
+
+- url: /jobs-form
+  script: jobs-form.php
+  
+- url: /job.html
+  script: job.php
+  secure: always
+
+- url: /job
+  script: job.php
+  secure: always
+
+- url: /admission.html
+  script: job.php
+  secure: always
+
+- url: /admission
+  script: admission.php
+  secure: always
+
+- url: /direct_upload
+  script: direct_upload.php
+
+- url: /handle_upload
+  script: handle_upload.php
+
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /favicon\-32x32\.png
+  static_files: favicon-32x32.png
+  upload: favicon\-32x32\.png
+
+- url: /apple\-touch\-icon\.png
+  static_files: apple-touch-icon.png
+  upload: apple\-touch\-icon\.png
+
+- url: /android\-chrome\-144x144\.png
+  static_files: android-chrome-144x144.png
+  upload: android\-chrome\-144x144\.png
+
+- url: /mstile\-150x150\.png
+  static_files: mstile-150x150.png
+  upload: mstile\-150x150\.png
+
+- url: /safari\-pinned\-tab\.svg
+  static_files: safari-pinned-tab.svg
+  upload: safari\-pinned\-tab\.svg
+
+- url: /.*
+  script: index.php
+  secure: always

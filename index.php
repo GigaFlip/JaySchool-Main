@@ -71,10 +71,10 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="admission.html">Admission</a>
+              <a class="nav-link js-scroll-trigger" href="admission">Admission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="careers.html">Careers</a>
+              <a class="nav-link js-scroll-trigger" href="careers">Careers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -110,7 +110,7 @@
             <p class="text-faded mb-4 text-justify">We aim to help children, according to their own abilities and potential, to develop their talent, shape their character and build their confidence. Our goal is to equip each child with the confidence to dream, the knowledge to understand those dreams and the perseverance required to pursue them.</p>
             <p class="text-faded mb-4 text-justify">To help us in this initiative we are looking for top academics, administrators, teachers and more to join us. Interested in making a diffence in a child's life?</p>
             <p class="text-faded mb-4">Come work for us!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="careers.html">Careers</a>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="careers">Careers</a>
           </div>
         </div>
       </div>
