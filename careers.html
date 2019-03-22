@@ -108,8 +108,10 @@
       <div class="container-fluid ">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="text-muted text-center">
-              <strong>We are looking for</strong>
+            <h3 class="text-center">
+              <strong>Thanks for the overwhelming response!</strong>
+              <br>
+              <br> We have completed most of our hiring. We are still looking for
             </h3>
             <br>
           </div>
@@ -118,24 +120,61 @@
           <div class="col-md-8">
             <dl style="font:Lato;">
               <dt>
+                Academic Staff
+              </dt>
+              <dd>
+                Language teachers - Hindi, Chinese, French
+              </dd>
+              <dd>
+                Teachers for co-curricular activities - Dance (Western; Western Classical; Indian Classical), Gymnastics
+              </dd>
+              <dd>
+                Music Teachers - Drum, Guitar, Key board, Violin, Piano, School Band
+              </dd>
+              <dd>
+                Physical Education Trainer - Female
+              </dd>
+            </dl>
+            <br>
+            <p class="text-faded-dark text-center"> <b>Please fill the form below</b> 
+            </p>
+          </div>
+
+    <!-- <section class="bg-light text-white"> -->
+      <div class="container text-center">
+        <iframe frameborder="0" style="height:800px;width:99%;border:none;" src='https://forms.zohopublic.com/virtualoffice13694/form/JobInterest/formperma/8QBuh4zsufgWgGGmv2lWa8K87LKoA6eWvI_pG6AvdHQ'></iframe>
+        <!-- <script type="text/javascript" src="https://forms.zohopublic.com/virtualoffice13694/form/JobInterest/jsperma/8QBuh4zsufgWgGGmv2lWa8K87LKoA6eWvI_pG6AvdHQ?height=850px&width=100%25" id="ZFScript"></script> -->
+      </div>
+
+          <div class="col-md-12">
+            <h3 class="text-muted text-center">
+              <br>
+              The following positions have been filled.
+            </h3>
+          </div>
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-8 text-muted">
+            <dl style="font:Lato;">
+              <dt>
+                <br>
                 Vice Principal and Primary Co-ordinator
               </dt>
               <dd>
                 With extensive experience in designing curriculum for nursery and primary classes.
               </dd><br>
-<!--               <dt>
+              <dt>
                 Administrative Team
               </dt>
               <dd>
                 Administrative Officer, Admission Counselor, Front desk, Accountant and PA to Director.
-              </dd><br> -->
+              </dd><br>
               <dt>
                 Academic Staff
               </dt>
               <dd>
                 Nursery and Primary Teachers (All Subjects), Montessori teachers, Activity Teachers,
-                Personality development teachers, Music teachers (With knowledge of all musical instruments),
-                Dance Teachers (Western/Classical), Physical Education Trainers, Librarian 
+                Personality development teachers, Physical Education Trainers, Librarian 
               </dd><br>
               <dt>
                 Support Staff
@@ -147,27 +186,10 @@
                 Caretakers, Security (Day & Night)
               </dd>
             </dl>
-            <br>
-            <p class="text-faded-dark text-center"> <b>Please fill the form below</b> 
-            </p>
           </div>
         </div>
       </div>
-    <!-- </section> -->
-    <!-- <br> -->
-    <!-- <br> -->
 
-    <!-- <section class="bg-light text-white">
-      <div class="container text-center">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzNVQPXjh8OoK4aJ24ZalGd-mNseRL318FIl5ne9ZI4hWcsA/viewform?embedded=true" width="640" height="907" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-      </div>
-    </section> -->
-
-    <!-- <section class="bg-light text-white"> -->
-      <div class="container text-center">
-        <iframe frameborder="0" style="height:850px;width:99%;border:none;" src='https://forms.zohopublic.com/virtualoffice13694/form/JobInterest/formperma/8QBuh4zsufgWgGGmv2lWa8K87LKoA6eWvI_pG6AvdHQ'></iframe>
-        <!-- <script type="text/javascript" src="https://forms.zohopublic.com/virtualoffice13694/form/JobInterest/jsperma/8QBuh4zsufgWgGGmv2lWa8K87LKoA6eWvI_pG6AvdHQ?height=850px&width=100%25" id="ZFScript"></script> -->
-      </div>
     </section>
 
     <footer>
