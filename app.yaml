@@ -30,6 +30,10 @@ handlers:
   script: careers.php
   secure: always
 
+- url: /career
+  script: careers.php
+  secure: always
+
 - url: /careers.html
   script: careers.php
 
@@ -47,11 +51,19 @@ handlers:
   script: job.php
   secure: always
 
+- url: /jobs
+  script: job.php
+  secure: always
+
 - url: /admission.html
   script: job.php
   secure: always
 
 - url: /admission
+  script: admission.php
+  secure: always
+
+- url: /admissions
   script: admission.php
   secure: always
 
