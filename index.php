@@ -71,13 +71,13 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="admission">Admission</a>
+              <a class="nav-link js-scroll-trigger" href="admission.php">Admission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="careers">Careers</a>
+              <a class="nav-link js-scroll-trigger" href="careers">Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Facilities</a>
             </li>
           </ul>
         </div>
