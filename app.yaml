@@ -19,59 +19,47 @@ handlers:
   static_dir: vendor
 
 - url: /
-  script: index.php
+  script: index.html
   secure: always
 
 - url: /index.html
-  script: index.php
+  script: index.html
   secure: always
   
 - url: /careers
-  script: careers.php
+  script: careers.html
   secure: always
 
 - url: /career
-  script: careers.php
+  script: careers.html
   secure: always
 
 - url: /careers.html
-  script: careers.php
+  script: careers.html
 
-- url: /jobs-form.html
-  script: jobs-form.html
-
-- url: /jobs-form
-  script: jobs-form.php
-  
 - url: /job.html
-  script: job.php
+  script: job.htm
   secure: always
 
 - url: /job
-  script: job.php
+  script: job.html
   secure: always
 
 - url: /jobs
-  script: job.php
+  script: job.html
   secure: always
 
 - url: /admission.html
-  script: job.php
+  script: admission.html
   secure: always
 
 - url: /admission
-  script: admission.php
+  script: admission.html
   secure: always
 
 - url: /admissions
-  script: admission.php
+  script: admission.html
   secure: always
-
-- url: /direct_upload
-  script: direct_upload.php
-
-- url: /handle_upload
-  script: handle_upload.php
 
 - url: /favicon\.ico
   static_files: favicon.ico
@@ -98,5 +86,5 @@ handlers:
   upload: safari\-pinned\-tab\.svg
 
 - url: /.*
-  script: index.php
+  script: index.html
   secure: always
